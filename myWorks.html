@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>This page will show my apps</h1>
+
+    <form>
+        <select name="list" id="list" accesskey="target">
+            <option value='none' selected>Choose Apps</option>
+            <option value="movieIndex.html">Movie Review App</option>
+            <option value="weatherIndex.html">Weather App</option>
+        </select>
+        <input type=button value="Go" onclick="goToNewPage()" />
+    </form>
+
+    <form>
+        <select name="list" id="list" accesskey="target">
+            <option value='none' selected>Jump to Pages</option>
+            <option value="personal.html">Personal</option>
+            <option value="professional.html">Professional</option>
+            <option value="myWorks.html">My Works</option>
+        </select>
+        <input type=button value="Go" onclick="goToNewPage()" />
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
